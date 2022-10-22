@@ -7,7 +7,7 @@ const ComponentB = ({ anyData }) => {
    return (
       <>
          <Container>
-            {/* <Typography variant="body1">ComponentB : C call</Typography> */}
+            <Typography variant="body1">ComponentB : C call</Typography>
             <ComponentC />
          </Container>
       </>
