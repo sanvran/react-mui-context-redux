@@ -3,6 +3,8 @@ import "./App.css";
 import { Box, CssBaseline, Divider } from "@mui/material";
 import Increament from "./components/increament";
 import ComponentA from "./components/useContext/a/ComponentA";
+import Draggable from "./components/draggable";
+import Addtodo from "../src/todos/Add";
 
 function App() {
 
@@ -15,6 +17,11 @@ function App() {
 				<Divider />
 			</Box>
 			<Increament />
+			<Divider />
+			{/* <Draggable /> */}
+			{/* Todo */}
+			<Addtodo />
+
 		</>
 	);
 }
