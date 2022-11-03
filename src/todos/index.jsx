@@ -8,7 +8,7 @@ const TodoList = () => {
       <>
          <Container>
             {todos.map((currTodo, ind) => (
-               <Typography variant="body2">
+               <Typography variant="body2" key={ind}>
                   {currTodo.todo}
                </Typography>
 
